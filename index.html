@@ -193,6 +193,7 @@ eventbrite: 38335595799
 -->
 <h2 id="schedule">Schedule</h2>
 
+<!--
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
@@ -200,6 +201,9 @@ eventbrite: 38335595799
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
+-->
+
+{% include export_clean.html %}
 
 <!--
   Collaborative Notes
